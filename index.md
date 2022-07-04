@@ -1,6 +1,6 @@
 ---
-title: "My work plan for producing technical documentation on Savings Vault"
-menuTitle: "Savings Vault"
+title: "Work plan for documenting Savings Vaults "
+menuTitle: "Savings Vaults"
 description: "Revolut is releasing a new product feature that lets customers earn interest by saving money in a Savings Vault. Read this blog post for an overview of the feature. Your task is to work with the product team and any other stakeholders to produce comprehensive technical documentation about this new feature. Describe how you would approach this task (max. 600 words)."
 author: Dorota Wojcik
 date: 2022-06-29
