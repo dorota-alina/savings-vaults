@@ -8,28 +8,28 @@ date: 2022-06-29
 
 ## Search and learn
 
-### Scamming
+### Skimming
 
-1. Identify available resources on Revolut products, Vaults, Savings Vaults, related features, and its users - internal materials, docs, blog posts, Internet, etc
+1. Identify available resources on Revolut products, Vaults, Savings Vaults, other related features, and its users - internal materials, docs, blog posts, Internet, etc.
 2. Use the above for a preliminary self-study - quick research
 
 ### Identify stakeholders
 
 1. Identify Project Lead (Technical Lead), Product Owner, Feature Owner, and possibly other product/ marketing/ sales persons with some expertise on Savings Vaults.
 2. Identify the technical engineers/ devs working on the feature who can support you (SMEs).
-3. Contact all of them and agree on a suitable form of cooperation:
+3. Contact all of them and agree on suitable forms of cooperation:
    * Preferably, a recorded call (which could be stored and/or shared, but, most of all, played back).
    * Email
    * Chat
-   * Sharing docs/ materials via a CMS.
+   * Sharing docs/ materials via web tools
 
 ### Define requirements
 
-1. Define your audience (internal Revolut devs, external devs, regular Revolut end users, etc). - consult Product Owner or a counterpart
-2. Define the scope - consult Product Owner or a counterpart about what type of docs specific users would need:
-   * Getting started?
-   * Conceptual feature description?
-   * Use cases/ User journeys? What specifically?
+1. Define your audience (internal Revolut devs vs external devs vs regular Revolut end users, etc). - consult Product Owner or the counterpart.
+2. Define the scope - consult Product Owner or the counterpart on what type of docs specific users would need, e.g.
+   * Getting started? guides
+   * Conceptual feature descriptions?
+   * Use cases/ User journeys? If so, which specifically?
    * How-tos/ tutorials (explaining how to use Savings Vaults)?
      * Via UI?
      * Via CLI?
@@ -43,12 +43,13 @@ date: 2022-06-29
 ## Get hands-on practice
 
 Test Savings Vaults yourself.
-1. Depending on how the feature is available (dev environment, test/UAT env., pre-prod/staging env., etc), set up your local environment or acquire access to a relevant website. To do that, use info in README files and, if needed, seek support from the SMEs.
+
+1. Depending on how the feature is available (dev environment, test/UAT env., pre-prod/staging env., etc), set up your local environment or acquire access to a relevant web environment. To do that, use info in README files and, if needed, seek support from the SMEs.
 2. When set up, check out all possible use cases and journeys that the users might want to take.
 
 ### Deep dive into the subject
 
-Self-study focused on the part to be covered in the docs:
+Self-study focused on the specific areas to be covered in the docs:
 
 * Use existing internal or external resources.
 * Request the introduction and demo of the Savings Vaults feature from the SMEs.
@@ -59,7 +60,7 @@ Self-study focused on the part to be covered in the docs:
 ### Early draft
 
 1. Try to produce an initial draft or at least docs plans and check what info you're missing.
-2. Consult the initial draft - request support from the SMEs in the agreed form to acquire the missing info.
+2. Consult the initial draft - request support from the SMEs in the agreed form(S) to acquire the missing info.
 
 ### Mature draft
 
@@ -71,18 +72,19 @@ Refine your initial draft and produce a proper one based on the collected info.
 
 1. Test how-tos, tutorials, instructions, and any procedural parts yourself.
 2. Request testing the same from the QA team.
+3. Update the docs according to the received comments.
 
 ### Review & approval
 
-1. Distribute the draft for review to the agreed stakeholders (preferably different from SMEs): devs, engineers, architects, product/ marketing/ sales folks.
-2. Update the docs according to the comments received after the testing and the review.
-3. Request the final approval from the agreed stakeholder (Project Lead, Tech Lead, or similar).
+1. Peer review: Distribute the draf to other technical writer(s) and apply their comments.
+2. Technical review: Distribute the draft to the agreed stakeholders (preferably different from SMEs): devs, engineers, architects, product/ marketing/ sales folks. Update the docs according to the received comments.
+4. Approval: Request the final approval from the agreed stakeholder (Project Lead, Tech Lead, or similar).
 
 ## Publish the docs
 
 ### Merge (GitHub)
 
-1. Merge all relevant PRs (GitHub) to the release branch and tag your branch if needed.
+Merge all relevant PRs (GitHub) to the release branch and tag the branch if needed.
 
 ### Deploy (Jenkins)
 
@@ -90,3 +92,7 @@ Refine your initial draft and produce a proper one based on the collected info.
 2. Verify the preview for any possible mistakes and correct them if needed.
 3. Publish your docs to the public view triggering a relevant pipeline in Jenkins.
 4. Verify the website for any possible mistakes.
+
+## Follow up
+
+If possible, collect a feedback on the documentation from the users and improve the docs accordingly.
