@@ -1,7 +1,7 @@
 ---
 title: "Work plan for documenting Savings Vaults"
 menuTitle: "Savings Vaults"
-description: "In this article includes a step-by-step action plan that I'd follow to produce the technical documentation for the Savings Vaults fature by Revolut."
+description: "In this article includes a step-by-step action plan that I'd follow to produce the technical documentation for the Savings Vaults feature by Revolut."
 author: Dorota Wojcik
 date: 2022-06-29
 ---
@@ -44,7 +44,7 @@ date: 2022-06-29
 
 Test Savings Vaults yourself.
 
-1. Depending on how the feature is available (dev environment, test/UAT env., pre-prod/staging env., etc), set up your local environment or acquire access to a relevant web environment. To do that, use info in README files and, if needed, seek support from the SMEs.
+1. Depending on how the feature is available (dev environment, test/UAT env., pre-prod/staging env., etc), set up your local environment or acquire access to an appropriate web environment. To do that, use info in README files and, if needed, seek support from the SMEs.
 2. When set up, check out all possible use cases and journeys that the users might want to take.
 
 ### Deep dive into the subject
@@ -52,8 +52,8 @@ Test Savings Vaults yourself.
 Self-study focused on the specific areas to be covered in the docs:
 
 * Use existing internal or external resources.
-* Request the introduction and demo of the Savings Vaults feature from the SMEs.
-* Check if there's already been any similar/parallel documentation from  Revolut or its competitors and gather good practices if any.
+* Request the SMEs' introduction and demo of the Savings Vaults feature.
+* Check if there's already been any similar/parallel documentation from  Revolut or its competitors and gather good practices.
 
 ## Down to writing
 
@@ -76,7 +76,7 @@ Refine your initial draft and produce a proper one based on the collected info.
 
 ### Review & approval
 
-1. Peer review: Distribute the draf to other technical writer(s) and apply their comments.
+1. Peer review: Distribute the draft to another technical writer and apply their comments.
 2. Technical review: Distribute the draft to the agreed stakeholders (preferably different from SMEs): devs, engineers, architects, product/ marketing/ sales folks. Update the docs according to the received comments.
 4. Approval: Request the final approval from the agreed stakeholder (Project Lead, Tech Lead, or similar).
 
@@ -95,4 +95,4 @@ Merge all relevant PRs (GitHub) to the release branch and tag the branch if need
 
 ## Follow up
 
-If possible, collect a feedback on the documentation from the users and improve the docs accordingly.
+If possible, collect feedback on the documentation from the users and improve the docs accordingly.
