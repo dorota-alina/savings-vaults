@@ -11,17 +11,17 @@ date: 2022-06-29
 ### Skimming
 
 1. Identify available resources on Revolut products, Vaults, Savings Vaults, other related features, and its users - internal materials, docs, blog posts, Internet, etc.
-2. Use the above for a preliminary self-study - quick research
+2. Use the above for a preliminary self-study - quick research.
 
 ### Identify stakeholders
 
 1. Identify Project Lead (Technical Lead), Product Owner, Feature Owner, and possibly other product/ marketing/ sales persons with some expertise on Savings Vaults.
-2. Identify the technical engineers/ devs working on the feature who can support you (SMEs).
+2. Identify the technical engineers/devs working on the feature who can support you (SMEs).
 3. Contact all of them and agree on suitable forms of cooperation:
    * Preferably, a recorded call (which could be stored and/or shared, but, most of all, played back).
    * Email
    * Chat
-   * Sharing docs/ materials via web tools
+   * Sharing docs/materials via web tools.
 
 ### Define requirements
 
@@ -38,7 +38,7 @@ date: 2022-06-29
      * Via UI? (highly unlikely)
      * Via CLI?
      * APIs?
-* API docs?
+   * API docs?
 
 ## Get hands-on practice
 
@@ -78,7 +78,7 @@ Refine your initial draft and produce a proper one based on the collected info.
 
 1. Peer review: Distribute the draft to another technical writer and apply their comments.
 2. Technical review: Distribute the draft to the agreed stakeholders (preferably different from SMEs): devs, engineers, architects, product/ marketing/ sales folks. Update the docs according to the received comments.
-4. Approval: Request the final approval from the agreed stakeholder (Project Lead, Tech Lead, or similar).
+3. Approval: Request the final approval from the agreed stakeholder (Project Lead, Tech Lead, or similar).
 
 ## Publish the docs
 
